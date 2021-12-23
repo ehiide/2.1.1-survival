@@ -1,0 +1,85 @@
+main: mc.server.survival.files.Main
+name: Survival
+authors: [Eh1de, misspill, ProseczeqPL]
+version: 2.1
+description: All in one addon for survival servers.
+api-version: 1.17
+commands:
+  powrot:
+    usage: /powrot
+    aliases: [powrot, back]
+  lobby:
+    usage: /lobby
+    aliases: [lobby, spawn, hub]
+  dom:
+    usage: /dom
+    aliases: [dom, home, sethome]
+  wiadomosc:
+    usage: /wiadomosc
+    aliases: [wiadomosc, wiad, w, msg]
+  odpowiedz:
+    usage: /odpowiedz
+    aliases: [odpowiedz, odp, reply, r]
+  schowek:
+    usage: /schowek
+    aliases: [schowek, sch]
+  pomoc:
+    usage: /pomoc
+    aliases: [pomoc, help]
+  ping:
+    usage: /ping
+    aliases: [ping, ms]
+  craftingi:
+    usage: /craftingi
+    aliases: [craftingi, receptury]
+  zaplac:
+    usage: /zaplac
+    aliases: [zaplac, pay, przelew]
+  paleta:
+    usage: /paleta
+    aliases: [paleta, kolory, hex]
+  tpa:
+    usage: /tpa
+    aliases: [tpa]
+  sklep:
+    usage: /sklep
+    aliases: [sklep, bazar, shop]
+  slub:
+    usage: /slub
+    aliases: [slub, marry]
+  gang:
+    usage: /gang
+    aliases: [gang, klan]
+  ip:
+    usage: /ip
+    aliases: [ip, address]
+  mute:
+    usage: /mute
+    aliases: [mute, wycisz, ucisz]
+  unmute:
+    usage: /unmute
+    aliases: [unmute, odcisz, wyjmijchuja]
+  kick:
+    usage: /kick
+    aliases: [kick, wyrzuc, wyjeb]
+  powiedz:
+    usage: /powiedz
+    aliases: [powiedz, falszywawiadomosc, fw]
+  postac:
+    usage: /postac
+    aliases: [postac, profil, statystyki]
+  questy:
+    usage: /questy
+    aliases: [questy, misje, zadania]
+  serverside:
+    usage: /serverside
+    aliases: [serverside, ss]
+  zakuj:
+    usage: /zakuj
+    aliases: [zakuj, loch, uwiez, ban]
+  odkuj:
+    usage: /odkuj
+    aliases: [odkuj, uwolnij, unban, wypusc]
+  whitelist:
+    usage: /whitelist
+    aliases: [whitelist, whitelista, wstep, bialalista]

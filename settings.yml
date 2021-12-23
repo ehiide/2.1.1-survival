@@ -1,0 +1,96 @@
+
+# WITAJ W PLIKU KONFIGURACYJNYM PLUGINU SURVIVAL!
+# Plik zostal wygenerowany automatycznie dla wersji 2.1.1.
+#
+# W przypadku manualnej aktualizacji, koniecznie usun plik, aby
+# mogl zostac stworzony nowy (obslugujacy najnowsza wersje).
+#
+# Przy dokonywaniu zmian zachowaj ostroznosc, szczegolnie w
+# przypadku zakladki 'internal', gdyz jej nieodpowiednia konfiguracja
+# moze doprowadzic do wystepowania glitchy na serwerze.
+# Po dokonaniu zmiain koniecznie zrestartuj serwer!
+#
+# --------------------------------------------------------
+
+# Funkcje, wtyczki i dodatki!
+# Oprócz zbalansowanego i gotowego setupa serwera typu survival, dodaliśmy również
+# kilka urozmaiceń w postaci dodatków, które z pewnością pokochasz!
+
+function:
+
+  # Whitelista jest dodatkiem, który umożliwia grę na serwerze tylko wybranym graczom.
+  # Status (true/false) włącza lub wyłącza funkcję.
+  # Join-notify (true/false) wysyła powiadomienie do wszystkich administratorów, gdy ktoś, kto nie jest na whiteliscie, spróbuje wejść na serwer.
+
+  whitelist:
+    status: true
+    join-notify: true
+
+  # Chemistry 3 jest potężnym dodatkiem dodającym chemię, narkotyki na serwer.
+  # Status (true/false) włącza lub wyłącza funkcję.
+
+  chemistry:
+    status: true
+
+  # Ore-Miner pozwala na wydobycie wszystkich rud z jednego złoża natychmiastowo.
+  # Status (true/false) włącza lub wyłącza funkcję.
+
+  ore-miner:
+    status: true
+
+  # Sitting pozwala siadać na krzesłach (schodkach).
+  # Status (true/false) włącza lub wyłącza funkcję.
+  # Height-fix (true/false) blokuje możliwość siadania na krzesłach z wysokości.
+
+  sitting:
+    status: true
+    height-fix: true
+
+  # Plant protection blokuje mozliwosc niszczenia upraw poprzez skakanie po nich.
+  # Status (true/false) włącza lub wyłącza funkcję.
+
+  plant-protection:
+    status: true
+
+# Efekty wizualne!
+# Wylaczenie niektorych efektow wizualnych moze miec pozytywny wplyw na TPS serwera,
+# ale jestesmy pewni, ze odrazu za nimi zatesknisz!
+
+visuals:
+  # Czasteczki krwi pojawiaja sie po zabiciu gracza/moba.
+  blood: true
+  # Animacja wybuchu TNT.
+  explode:
+    status: true
+    # Okresla ile blokow ma zostac zanimowanych podczas animacji wybuchu.
+    block-count: 8
+  # Hologram wyswietlajacy sie nad itemkiem.
+  items: true
+  # Czasteczki pojawiajace sie za wystrzelonym itemkiem (Sniezka, Ender perla, strzala...).
+  projectiles: true
+  # Po trafieniu sniezki w blok, ten zamienia sie w blok sniegu na okres kilku sekund.
+  snow: true
+  # Jezeli gracz otrzyma obrazenia krytyczne, otrzyma ceikawy efekt slepoty.
+  critBlind: true
+  # Informuje o zadanych obrazeniach, zadanym typie obrazen podczas PVP/PVE.
+  damageIndicator: true
+
+# Dane wewnetrzne!
+# Ich zmiana moze miec silny wplyw na gameplay, dlatego nie zalecamy ich zmiany
+# jesli nie jestes developerem pluginu!
+
+internal:
+
+  # Okresla przez ile tickow gracz nie moze dostac obrazen.
+  # Wieksza liczba (Vanilla - 10) doprowadzi do wydluzenia czasu, kiedy gracz nie moze otrzymac zadnych obrazen,
+  # zaś mniejsza doprowadzi do zmniejszenia badz nawet wylaczenia blokady hitow podczas PVP/PVE (Tryb Combo).
+
+  hit-delay: 2
+
+  # Podstawowy zasięg bicia dla graczy.
+
+  hit-reach: 2.5
+
+  # Podstawowy mnożnik odrzutu dla mobów.
+
+  entity-knockback: 0.67
